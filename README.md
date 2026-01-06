@@ -1,4 +1,4 @@
-# Service Showcase Component
+# Obsidian
 
 ## Overview
 A modern, interactive web component built with HTML, CSS, and JavaScript that presents services in an accordion-style layout with synchronized image previews. This component demonstrates professional UI/UX patterns for showcasing service offerings with smooth animations and responsive design.
