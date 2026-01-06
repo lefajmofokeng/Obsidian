@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Showcase Component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="sd-main-container">
+        <header class="sd-header">
+            <h1 class="sd-title">From concept to completion</h1>
+            <p class="sd-subtitle">We bring visions to life through a comprehensive approach, managing every detail from initial sketches to the final architectural masterpiece.</p>
+            <button class="sd-btn-browse">Browse all services</button>
+        </header>
+
+        <main class="sd-content-grid">
+            <div class="sd-accordion-wrapper">
+                
+                <div class="sd-acc-item sd-active" data-image-index="0">
+                    <div class="sd-acc-header">
+                        Exterior design
+                        <span class="sd-acc-icon"></span>
+                    </div>
+                    <div class="sd-acc-body" style="max-height: 200px;"> <p class="sd-acc-desc">We craft stunning outdoor aesthetics that harmonize with the environment, utilizing sustainable materials and innovative structures to create inviting facades and functional outdoor living spaces.</p>
+                    </div>
+                </div>
+
+                <div class="sd-acc-item" data-image-index="1">
+                    <div class="sd-acc-header">
+                        Decoration
+                        <span class="sd-acc-icon"></span>
+                    </div>
+                    <div class="sd-acc-body">
+                        <p class="sd-acc-desc">Curating the perfect blend of furniture, textiles, art, and accessories to inject personality, warmth, and stylistic coherence into every room of your property.</p>
+                    </div>
+                </div>
+
+                <div class="sd-acc-item" data-image-index="2">
+                    <div class="sd-acc-header">
+                        Construction
+                        <span class="sd-acc-icon"></span>
+                    </div>
+                    <div class="sd-acc-body">
+                        <p class="sd-acc-desc">Executing complex builds with precision engineering, high-quality craftsmanship, and rigorous project management to ensure structural integrity from foundation to rooftop.</p>
+                    </div>
+                </div>
+
+                 <div class="sd-acc-item" data-image-index="3">
+                    <div class="sd-acc-header">
+                        Interior design
+                        <span class="sd-acc-icon"></span>
+                    </div>
+                    <div class="sd-acc-body">
+                        <p class="sd-acc-desc">Transforming indoor spaces into functional sanctuaries by optimizing layouts, lighting schemes, and material palettes to reflect your unique lifestyle and needs.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="sd-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?q=80&w=1974&auto=format&fit=crop" alt="Exterior Design Dining Setup" class="sd-service-img sd-img-active">
+                <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2064&auto=format&fit=crop" alt="Interior Decoration Vases" class="sd-service-img">
+                 <img src="https://images.pexels.com/photos/34558609/pexels-photo-34558609.jpeg" alt="Construction Site Framing" class="sd-service-img">
+                 <img src="https://images.pexels.com/photos/19543999/pexels-photo-19543999.jpeg" alt="Modern Interior Living Room" class="sd-service-img">
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
